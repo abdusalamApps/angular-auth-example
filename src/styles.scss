@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+body, html {
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  padding: 2em;
+  display: grid;
+  grid-template-areas: 'content' 'content' 'content' 'content' 'bottom';
+}
+
+.content {
+  grid-area: content;
+}
+
+.buttons-container {
+  padding: 4em;
+  display: grid;
+  grid-area: bottom;
+}
